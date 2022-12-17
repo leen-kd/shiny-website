@@ -1,0 +1,262 @@
+
+
+.container {
+	
+	display: flex;
+	
+
+	   
+	-ms-flex-wrap:nowrap;
+	    flex-wrap:wrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center; 
+	-ms-flex-line-pack: distribute; 
+	 /* background color behind 3 choices*/
+	-ms-flex-pack:distribute;
+	    justify-content:space-around; 
+	    margin: auto;
+	padding-bottom:900px;
+	
+	
+	
+}
+
+
+.signup {
+
+text-align:right;
+margin:none;
+
+}
+
+.l{
+width:2%;
+padding-right:0px;
+margin-right:40%;
+margin-left:-29%;
+margin-top:1%;
+
+}
+
+.p1{
+
+text-align:right;
+margin-top:1%;
+margin-left:-14%;
+margin-right:-5%;
+margin:none;
+}
+
+.items {
+	opacity:1;
+	width:45%;
+
+	
+	
+}
+
+.log{
+
+	opacity:.7;
+}
+
+.log:hover { 
+	opacity:.9;
+}
+
+
+
+.items * {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+    width:100%;
+    
+    
+}
+
+.top {
+	background-color:white;/*no change*/
+}
+
+.pic {
+ width:90%;
+ padding:70px;
+
+}
+
+.link a {
+	font-size: 30px;
+	padding:40px 0;
+	
+	color:#FFFFFF;/*no change*/
+	text-decoration:none;
+}
+
+@media screen and (min-width:978px) {
+	.container{max-width:978px;}
+}
+
+/* item page css */
+.item-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+.left-column {
+  width: 65%;
+  position: relative;
+}
+ 
+.right-column {
+  width: 35%;
+  margin-top: 60px;
+}
+.left-column img {
+  width: 70%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease;
+}
+.product-price {
+  display: flex;
+  align-items: center;
+}
+ 
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #43474D;
+  margin-right: 20px;
+}
+ 
+.cart-btn {
+  display: inline-block;
+  background-color: #7DC855;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+}
+.cart-btn:hover {
+  background-color: #64af3d;
+}
+/* comment section */
+.be-comment-block {
+    margin-bottom: 50px !important;
+    border: 1px solid #edeff2;
+    border-radius: 2px;
+    padding: 50px 70px;
+    border:1px solid #ffffff;
+}
+
+.comments-title {
+    font-size: 16px;
+    color: #262626;
+    margin-bottom: 15px;
+    font-family: 'Conv_helveticaneuecyr-bold';
+}
+
+.be-img-comment {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.be-ava-comment {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.be-comment-content {
+    margin-left: 80px;
+}
+
+.be-comment-content span {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.be-comment-name {
+    font-size: 13px;
+    font-family: 'Conv_helveticaneuecyr-bold';
+}
+
+.be-comment-content a {
+    color: #383b43;
+}
+
+.be-comment-content span {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.be-comment-time {
+    text-align: right;
+}
+
+.be-comment-time {
+    font-size: 11px;
+    color: #b4b7c1;
+}
+
+.be-comment-text {
+    font-size: 13px;
+    line-height: 18px;
+    color: #7a8192;
+    display: block;
+    background: #f6f6f7;
+    border: 1px solid #edeff2;
+    padding: 15px 20px 20px 20px;
+}
+
+.form-group.fl_icon .icon {
+    position: absolute;
+    top: 1px;
+    left: 16px;
+    width: 48px;
+    height: 48px;
+    background: #f6f6f7;
+    color: #b5b8c2;
+    text-align: center;
+    line-height: 50px;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.form-group .form-input {
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #b4b7c1;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #edeff2;
+    border-radius: 3px;
+}
+
+.form-group.fl_icon .form-input {
+    padding-left: 70px;
+}
+
+.form-group textarea.form-input {
+    height: 150px;
+}
